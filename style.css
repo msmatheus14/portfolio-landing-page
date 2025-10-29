@@ -1,0 +1,219 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+section {
+  padding: 3em 10%;
+}
+
+h2 {
+  color: #222;
+  border-bottom: 3px solid #d62828;
+  display: inline-block;
+  margin-bottom: 1em;
+  font-size: 1.8em;
+}
+
+#sobre p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+.valvula {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  margin: 2em 0;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.valvula:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.valvula img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 2em;
+}
+
+.info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.info h3 {
+  color: #d62828;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "• ";
+  color: #d62828;
+  font-weight: bold;
+}
+
+#contato {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 2em 10%;
+ margin-top: 3em;
+}
+
+#contato a {
+color: #d62828;
+text-decoration: none;
+font-weight: bold;
+}
+
+#contato a:hover {
+text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .valvula {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .valvula img {
+    margin: 0 0 1em 0;
+    width: 90%;
+  }
+}
+
+
+/* --- Estilos do Footer (Rodapé) --- */
+
+footer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 3em 10%;
+  margin-top: 3em;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.footer-col {
+  padding-right: 1em;
+}
+
+.footer-col h2 {
+  color: #fff;
+  border: none;
+  margin-top: 0;
+}
+
+.footer-col h4 {
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #d62828;
+  padding-bottom: 0.5em;
+}
+
+.footer-col p {
+  font-size: 0.9em;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.75em;
+}
+
+.footer-col ul li::before {
+  content: "";
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Botão "Fale Conosco" */
+.btn-faleconosco {
+  display: inline-block;
+  background-color: #fff;
+  color: #d62828;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-faleconosco:hover {
+  background-color: #d62828;
+  color: #fff;
+}
+
+.extra-padding {
+  margin-top: 2em;
+}
+
+
+/* --- Responsividade do Footer --- */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  #footer-sobre {
+    grid-column: 1 / -1; 
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
