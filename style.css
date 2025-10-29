@@ -74,4 +74,144 @@ h2 {
 
 ul {
   list-style: none;
-  padding:
+  padding: 0;
+}
+
+ul li::before {
+  content: "• ";
+  color: #d62828;
+  font-weight: bold;
+}
+
+#contato {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 2em 10%;
+ margin-top: 3em;
+}
+
+#contato a {
+color: #d62828;
+text-decoration: none;
+font-weight: bold;
+}
+
+#contato a:hover {
+text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .valvula {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .valvula img {
+    margin: 0 0 1em 0;
+    width: 90%;
+  }
+}
+
+
+footer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 3em 10%;
+  margin-top: 3em;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.footer-col {
+  padding-right: 1em;
+}
+
+.footer-col h2 {
+  color: #fff;
+  border: none;
+  margin-top: 0;
+}
+
+.footer-col h4 {
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #d62828;
+  padding-bottom: 0.5em;
+}
+
+.footer-col p {
+  font-size: 0.9em;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.75em;
+}
+
+.footer-col ul li::before {
+  content: "";
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Botão "Fale Conosco" */
+.btn-faleconosco {
+  display: inline-block;
+  background-color: #fff;
+  color: #d62828;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-faleconosco:hover {
+  background-color: #d62828;
+  color: #fff;
+}
+
+.extra-padding {
+  margin-top: 2em;
+}
+
+
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  #footer-sobre {
+    grid-column: 1 / -1; 
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
