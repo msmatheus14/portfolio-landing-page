@@ -16,6 +16,6 @@ Desenvolver uma landing page simples apresentando informações sobre válvulas 
 | 5 | Adicionar informações sobre válvulas Bray (texto e imagens ilustrativas) | Gabriel | Média | ✅ Concluído  |
 | 6 | Criar layout simples (cabeçalho, corpo, rodapé) | Matheus | Média | ✅ Concluído  |
 | 7 | Testar exibição da página no navegador | Gabriel | Baixa | ✅ Concluído |
-| 8 | Publicar no GitHub Pages | Matheus | Baixa | 🔜 A fazer |
+| 8 | Publicar no Vercel | Matheus | Baixa | ✅ Concluído | == https://portfolio-landing-page-seven-indol.vercel.app/
 
 
