@@ -101,7 +101,7 @@ font-weight: bold;
 text-decoration: underline;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .valvula {
     flex-direction: column;
@@ -114,8 +114,6 @@ text-decoration: underline;
   }
 }
 
-
-/* --- Estilos do Footer (Rodapé) --- */
 
 footer {
   background-color: #1e1e1e;
@@ -201,7 +199,7 @@ footer {
 }
 
 
-/* --- Responsividade do Footer --- */
+
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr 1fr 1fr;

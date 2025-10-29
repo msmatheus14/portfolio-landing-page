@@ -18,9 +18,4 @@ Desenvolver uma landing page simples apresentando informações sobre válvulas 
 | 7 | Testar exibição da página no navegador | Gabriel | Baixa | 🔜 A fazer |
 | 8 | Publicar no GitHub Pages | Matheus | Baixa | 🔜 A fazer |
 
----
 
-## 📅 Observações
-- O projeto será desenvolvido de forma colaborativa utilizando **Git e GitHub**.  
-- O foco é **atender aos requisitos do professor**, priorizando simplicidade e clareza.  
-- **Não serão utilizados frameworks** ou bibliotecas externas.
