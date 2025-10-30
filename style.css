@@ -1,6 +1,6 @@
-/* Configurações Globais */
+
 html {
-  /* Efeito de rolagem suave ao clicar nos links do menu */
+ 
   scroll-behavior: smooth;
 }
 
@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 
 section {
   padding: 3em 10%;
-  /* Adiciona um padding-top para compensar a altura do menu fixo */
+ 
   padding-top: 5em; 
 }
 
@@ -36,12 +36,12 @@ ul {
   padding: 0;
 }
 
-/* Header e Novo Menu de Navegação */
+
 header {
   background-color: #1e1e1e;
   color: #fff;
   text-align: center;
-  padding: 1.5em 0 0 0; /* Ajustado para acomodar o menu */
+  padding: 1.5em 0 0 0; 
   letter-spacing: 1px;
 }
 
@@ -55,7 +55,7 @@ header h1 {
   background-color: #2a2a2a;
   padding: 0.8em 10%;
   text-align: center;
-  position: sticky; /* Efeito de "grudar" no topo */
+  position: sticky; 
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -74,18 +74,18 @@ header h1 {
   border-radius: 4px;
 }
 
-/* Nova Seção Hero */
+
 #hero {
-  /* Imagem de fundo (troque pela sua) */
+ 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?industrial,factory,pipeline');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Efeito Parallax */
+  background-attachment: fixed; 
   
   color: #fff;
   text-align: center;
   padding: 8em 10%;
-  margin-top: -5em; /* Compensa o padding-top da 'section' */
+  margin-top: -5em; 
 }
 
 .hero-content h2 {
@@ -101,7 +101,7 @@ header h1 {
   margin: 0 auto;
 }
 
-/* Seção Sobre */
+
 #sobre {
   text-align: center;
 }
@@ -111,7 +111,7 @@ header h1 {
   font-size: 1.1em;
 }
 
-/* Seção de Válvulas (Produtos) */
+
 #valvulas h2 {
   text-align: center;
   display: block;
@@ -145,7 +145,7 @@ header h1 {
   box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
-/* Faz as imagens alternarem (esquerda/direita) */
+
 .valvula:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -153,11 +153,11 @@ header h1 {
 .valvula img {
   width: 300px;
   height: 250px;
-  object-fit: cover; /* Garante que a imagem preencha o espaço */
+  object-fit: cover; 
   border-radius: 10px;
 }
 
-/* Ajusta a margem da imagem dependendo da direção */
+
 .valvula:nth-child(odd) img {
   margin-right: 2em;
 }
@@ -182,7 +182,7 @@ header h1 {
   font-weight: bold;
 }
 
-/* Seção Contato */
+
 #contato {
   background-color: #222;
   color: white;
@@ -208,12 +208,12 @@ header h1 {
   text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
   background-color: #1e1e1e;
   color: #f0f0f0;
   padding: 3em 10%;
-  /* Remove o margin-top, pois o contato já tem margem */
+ 
 }
 
 .footer-container {
