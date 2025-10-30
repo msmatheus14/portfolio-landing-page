@@ -1,0 +1,44 @@
+PS C:\Users\mathe\OneDrive\Área de Trabalho\portfolio-landing-page> git log --oneline --graph --all --decorate --remotes
+>> 
+* 889494d (HEAD -> main, origin/main, origin/HEAD) Alterações no projeto principal
+*   7aac51c Merge pull request #5 from msmatheus14/feat/deploy
+|\  
+| *   b444842 (origin/feat/deploy) Merge branch 'main' into feat/deploy
+| |\  
+| |/  
+|/|   
+* | 74e8ea2 Alterações gerais
+* | e343ecd ADICIONANDO LINK DA HOSPEDAGEM VERCEL NO TRABALHO
+* | be36838 Alterando fluxo de trabalho
+* | 348cbae Testado a exibição
+* |   8a6b372 Merge pull request #4 from msmatheus14/feat/footer
+|\ \
+| * \   de22c1a (origin/feat/footer) Merge branch 'main' into feat/footer
+| |\ \
+| |/ /
+|/| |
+| * | 055b971 (feat/footer) Alterações Footer v2
+| * | 7da6bdf ALTERAÇÕES NO FLUXO DE TRABALHO
+| * | 871bc9f ALTERAÇÕES NO FOOTER
+| * | 9fdb44c ADICIONEI O FOOTER STILIZADO
+| | * f9b9366 (feat/deploy) Alterado projeto conforme orientações da etapa 4 e adicionado prints do projeto.
+| | * 2db90a1 alteração estrutura base
+| | * 6435c7f feat: Adiciona estrutura básica no projeto.
+| |/
+| | *   27d855e (origin/feat/conteudo-bray) Merge branch 'main' into feat/conteudo-bray
+| | |\
+| |_|/
+|/| |   
+* | | bdcd24b Voltando a main original
+* | | b32c89c Informações e estilização basica.
+* | |   1066851 Merge pull request #1 from msmatheus14/feat/estrutura-base
+|\ \ \
+| |/ /
+|/| |
+| * | fa6e249 (origin/feat/estrutura-base, feat/estrutura-base) alterações estrutura base concluída
+| * | 9a28da3 alterações na estrutura base
+| * | 1d234a4 criação da estrutura base
+|/ /
+| * e1876c1 (feat/conteudo-bray) Estilização basica e informações
+|/
+* c5dac66 (origin/feat/responsividade, feat/responsividade) CRIAÇÃO DO ARQUIVO MACKLOG PARA GERENCIAMENTO DE FLUXO DE TRABALHO  E ALTERAÇÃO DO README.MD
